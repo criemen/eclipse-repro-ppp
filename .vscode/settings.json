@@ -1,0 +1,24 @@
+{
+  "bazel.projectview.open": false,
+  "files.exclude": {
+    "**/.git": true,
+    "**/.svn": true,
+    "**/.hg": true,
+    "**/CVS": true,
+    "**/.DS_Store": true,
+    "**/Thumbs.db": true,
+    "**/.factorypath": true,
+    "**/__pycache__": true,
+    ".eclipse": false,
+    ".git": false,
+    ".settings": false,
+    "src": false,
+    "test": false,
+    "bazel-eclipse-repro": false,
+    "bazel-bin": false,
+    "bazel-out": false,
+    "bazel-testlogs": false,
+    ".vscode": false
+  },
+  "java.compile.nullAnalysis.mode": "disabled"
+}

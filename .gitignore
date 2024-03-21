@@ -1,0 +1,7 @@
+bazel-bin
+bazel-eclipse-repro-ppp
+bazel-out
+bazel-testlogs
+.eclipse/projects/
+.settings/
+.project

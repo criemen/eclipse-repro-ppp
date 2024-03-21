@@ -1,0 +1,16 @@
+java_library(
+    name = "main",
+    srcs = ["src/Main.java"],
+    deps = ["//third_party:hamcrest-core"],
+)
+
+java_test(
+    name = "test_individual",
+    size = "small",
+    srcs = ["test/MainTest.java"],
+    test_class = "test.MainTest",
+    deps = [
+        ":main",
+        "//third_party:hamcrest-library",
+    ],
+)
